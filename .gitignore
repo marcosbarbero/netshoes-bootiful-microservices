@@ -1,0 +1,21 @@
+.DS_Store
+
+# Package files #
+*.jar
+*.war
+*.ear
+
+# Logs dir #
+logs/
+
+
+# IDE #
+
+target/
+.settings/
+.idea/
+.classpath
+.project
+.springBeans
+*.iml
+*.class
