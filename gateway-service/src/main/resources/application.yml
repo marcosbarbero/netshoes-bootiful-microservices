@@ -1,0 +1,6 @@
+spring:
+  oauth2.resource:
+    userInfoUri: http://security/user
+    loadBalanced: true
+
+security.ignored: /security/**
