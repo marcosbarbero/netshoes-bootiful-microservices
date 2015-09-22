@@ -27,6 +27,6 @@ class MusketeersController {
     @RequestMapping("/musketeers")
     @Cacheable("musketeers")
     public Collection<String> musketeers() {
-        return Arrays.asList("Athos", "Aramis", "Porthos");
+        return Arrays.asList("Athos", "Porthos", "Aramis");
     }
 }
