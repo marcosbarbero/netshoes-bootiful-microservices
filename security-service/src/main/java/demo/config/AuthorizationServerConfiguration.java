@@ -21,6 +21,6 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
                 .authorities("CLIENT")
                 .authorizedGrantTypes("client_credentials")
                 .scopes("read", "write")
-                .resourceIds("restservice");
+                .resourceIds("restservice","oauth2-resource");
     }
 }

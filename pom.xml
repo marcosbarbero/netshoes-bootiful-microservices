@@ -48,7 +48,7 @@
         <module>discovery-service</module>
         <module>gateway-service</module>
         <module>security-service</module>
-        <module>dumb-service</module>
+        <module>dummie-service</module>
     </modules>
 
     <dependencies>

@@ -1,5 +1,3 @@
 security.oauth2.resource:
   user-info-uri: http://security/user
   loadBalanced: true
-
-security.ignored: /security/**
