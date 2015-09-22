@@ -46,9 +46,10 @@
     <modules>
         <module>configuration-service</module>
         <module>discovery-service</module>
+        <module>dummie-service</module>
         <module>gateway-service</module>
         <module>security-service</module>
-        <module>dummie-service</module>
+        <module>sidecar-application</module>
     </modules>
 
     <dependencies>

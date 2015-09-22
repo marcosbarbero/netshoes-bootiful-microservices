@@ -20,7 +20,7 @@ public class SecurityServiceApplication {
 }
 
 @RestController
-class SecurityController {
+class UserDetailsController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/user", method = RequestMethod.GET)
