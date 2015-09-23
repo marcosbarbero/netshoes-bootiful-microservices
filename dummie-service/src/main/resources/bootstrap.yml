@@ -1,8 +1,6 @@
 server.port: 9090
 
 spring:
-  application:
-    name: dumb
-    index: ${random.int}
-#  cloud.config:
-#    uri: http://localhost:8888
+  application.name: dummie
+  cloud.config:
+    uri: http://localhost:8888

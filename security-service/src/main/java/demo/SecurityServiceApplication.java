@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
 
+/**
+ *  curl -w \\n bootiful:secret@localhost:8080/security/oauth/token -d "grant_type=client_credentials&scope=read%20write"
+ *
+ *  @author marcos.barbero
+ */
 @SpringCloudApplication
 public class SecurityServiceApplication {
 
