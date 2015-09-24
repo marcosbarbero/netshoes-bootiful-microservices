@@ -1,5 +1,4 @@
 server.port: 9999
-
 sidecar.port: 8181
-
 spring.application.name: php
+eureka.instance.preferIpAddress: true
